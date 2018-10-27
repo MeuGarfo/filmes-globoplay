@@ -1,4 +1,4 @@
-<table id="filmes" class="table table-hover table-sm" data-page-length='4'>
+<table id="filmes" class="table table-hover table-sm">
     <thead>
         <tr>
             <th>Titulo</th>
@@ -46,6 +46,7 @@ $(document).ready(function() {
         "language": {
             "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
         },
+        "lengthMenu": [4, 8, 16, "All"],
         "order": [[ 3, "desc" ]]
     } );
 } );
